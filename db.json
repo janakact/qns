@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "id": "7b549980-eade-11e6-b0ce-d1724d7073a4",
+      "url": "/api/uuw",
+      "func": "()=>{return \"I will kill you!\"}"
+    },
+    {
+      "id": "67652fb0-eadf-11e6-889c-1f2ffbe8a129",
+      "url": "/api/uuw",
+      "func": "()=>{return \"I love you!\"}"
+    },
+    {
+      "id": "6bc8d7f0-eadf-11e6-889c-1f2ffbe8a129",
+      "url": "/api/url1",
+      "func": "(req)=>{return req.path;}"
+    },
+    {
+      "id": "bee39010-eadf-11e6-936a-2d3dad97f233",
+      "url": "/api/no",
+      "func": "()=>{return \"This is not over, this is just the begining\"}"
+    }
+  ]
+}
